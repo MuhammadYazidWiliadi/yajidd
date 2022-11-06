@@ -1,0 +1,248 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">MY WEBSITE</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="spi.jpeg">
+            <div class="kolom">
+                <p class="deskripsi">Muhamad Alfar Ramazan Putra. F</p>
+                <h2>Personal WEB</h2>
+                <p>introduce my name is muhamad alfar ramazan putra.f, i'm a student at smk wikrama bogor, i'm from rombel pplgX2.</p>
+            </div>
+        </section>
+
+        <!-- untuk potofolio -->
+        <section id="portofolio">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">this is</p>
+                    <h2>My Portofolio</h2>
+                </div>
+
+                <div class="portofolio-list">
+                    <div class="polio-tutor">
+                        <img src="toy.webp">
+                        <p>Personal Web</p>
+                    </div>
+                    <div class="polio-tutor">
+                        <img src="toy.webp">
+                        <p>Web School</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="anu">
+                <div class="kolom">
+                    <p class="deskripsi">this is my contact</p>
+                    <h2>follow ya teman-teman</h2>
+                </div>
+
+                <div class="contact-li">
+                    <div class="contact-to">
+                        <img src="instagram.png">
+                        <p>@rmznptraa, first account</p>
+                    </div>
+                    <div class="contact-to">
+                        <img src="wa.png">
+                        <p>whatsapp</p>
+                    </div>
+                    <div class="contact-to">
+                        <img src="twitw.png">
+                        <p>Twiter</p>
+                    </div>
+                    <div class="contact-to">
+                        <img src="instagram.png">
+                        <p>@rmzannrrrr, secc account</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper img {
+    border-radius: 50%;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 750;
+    float: left;
+    font-family: Courier;
+    color: #153462;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #153462;
+}
+
+nav ul {
+    list-style-type: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #153462;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 750;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #153462;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.portofolio-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.polio-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.polio-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.polio-tutor p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #153462;
+}
+
+.anu {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-li {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-to {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.contact-to img {
+    width: 85%;
+    border-radius: 50%;
+}
+
+.contact-to p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #153462;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+.img
+{border-radius: 100%;
+width: 250px;
+height: 250px;}
